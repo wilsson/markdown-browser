@@ -1,14 +1,21 @@
 html, body, section{
   height: 100%;
+  width: 100%;
 } 
 
 #txtMarkdown {
+  box-sizing:border-box;
   float: left;
   border-left: 1px solid black;
   height: 100%;
   width: 50%;
+  padding: 0;
 }
 
 #txtHtml{
+  height: 100%;
+  width: 50%;
   float: left;
+  overflow: hidden;
+  overflow-y:scroll;
 }

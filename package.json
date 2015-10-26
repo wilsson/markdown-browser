@@ -1,0 +1,24 @@
+{
+  "name": "markdown-browser",
+  "version": "0.8.0",
+  "description": "markdown edit your documents from your browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsson/markdown-browser"
+  },
+  "keywords": [
+    "markdown",
+    "browser",
+    "md"
+  ],
+  "author": "wilsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsson/markdown-browser/issues"
+  },
+  "homepage": "https://github.com/wilsson/markdown-browser"
+}

@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/wilsson/markdown-browser/issues"
   },
-  "homepage": "https://github.com/wilsson/markdown-browser"
+  "homepage": "https://github.com/wilsson/markdown-browser",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
 }

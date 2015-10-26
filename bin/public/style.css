@@ -1,0 +1,14 @@
+html, body, section{
+  height: 100%;
+} 
+
+#txtMarkdown {
+  float: left;
+  border-left: 1px solid black;
+  height: 100%;
+  width: 50%;
+}
+
+#txtHtml{
+  float: left;
+}

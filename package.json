@@ -24,5 +24,6 @@
   "dependencies": {
     "ejs": "^2.3.4",
     "express": "^4.13.3"
-  }
+  },
+  "devDependencies": {}
 }

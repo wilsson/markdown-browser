@@ -6,7 +6,6 @@
     txtMarkdown : document.getElementById('txtMarkdown'),
     txtHtml     : document.getElementById('txtHtml')
   };
-
   var suscribeEvents = function(){
     st.txtMarkdown.addEventListener('scroll',events.eScroll);
     st.txtHtml.addEventListener('scroll',events.eScroll);
@@ -32,7 +31,7 @@
 
 (function(){
   var st = {
-    converter   : new showdown.Converter(),
+    converter   : new showdown.Converter({tables:true}),
     txtMarkdown : document.getElementById('txtMarkdown'),
     txtHtml     : document.getElementById('txtHtml')
   };
@@ -43,6 +42,8 @@
 
   var functions = {
     convertMarkdown : function(){
+      var defaultOptions = showdown.getDefaultOptions();
+      console.log(defaultOptions);
       var markdown = st.txtMarkdown.value;
       var html = st.converter.makeHtml(markdown);
       st.txtHtml.innerHTML = html;  

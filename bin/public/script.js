@@ -37,6 +37,7 @@
   };
     
   var suscribeEvents = function(){
+    functions.convertMarkdown();
     st.txtMarkdown.addEventListener('input',functions.convertMarkdown);
   };
 

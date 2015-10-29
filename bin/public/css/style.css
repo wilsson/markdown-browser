@@ -1,0 +1,1 @@
+#txtHtml,#txtMarkdown{height:100%;width:50%;float:left}body,html,section{height:100%;width:100%}#txtMarkdown{box-sizing:border-box;border-left:1px solid #000;padding:0}#txtHtml{overflow:hidden;overflow-y:scroll}
